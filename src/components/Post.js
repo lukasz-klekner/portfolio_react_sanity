@@ -38,7 +38,7 @@ const Post = () => {
           {postData &&
             postData.map((post, index) => (
               <article key={index}>
-                <Link to={'/post' + post.slug.current} key={post.slug.current}>
+                <Link to={'/post/' + post.slug.current} key={post.slug.current}>
                   <span
                     className='block h-64 relatvie rounded shadow leading-snug bg-white border-l-8 border-green-800'
                     key={index}
